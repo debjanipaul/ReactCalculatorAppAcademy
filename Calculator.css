@@ -1,0 +1,62 @@
+body {
+    background: linear-gradient(217deg, rgba(255, 0, 0, .8), rgba(255, 0, 0, 0) 70.71%), linear-gradient(127deg, rgba(0, 75, 0, .8), rgba(0, 255, 0, 0) 70.71%), linear-gradient(336deg, rgba(0, 0, 255, .8), rgba(0, 0, 255, 0) 70.71%);
+    ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.box {
+    width: 40%;
+    height: 350px;
+    margin: 10% auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 2px 3px 4px 2px #e6e6e6;
+    background-color: #e6fff2;
+}
+
+.header {
+    color: purple;
+    text-decoration: underline;
+}
+
+.inputBox {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    margin: 5px;
+}
+
+.input {
+    width: 50px;
+    height: 25px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.clear {
+    width: 70px;
+    height: 30px;
+    margin: 5px;
+    background-color: purple;
+    color: white;
+    border-radius: 5px;
+}
+
+.operators {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+.symbols {
+    width: 30px;
+    height: 25px;
+    border-radius: 5px;
+    color: beige;
+    background-color: purple;
+}
